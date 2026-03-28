@@ -38,6 +38,7 @@ The framework supports training in simulation and deployment in both simulated a
 ```bash
 git clone https://github.com/kaveh-hooshmandi/RABO-drl-robot-navigation.git
 cd RABO-drl-robot-navigation
+```
 
 ## Table of Contents
 - [DRL-for-Mobile-Robot-Navigation-Using-ROS2](#drl-for-mobile-robot-navigation-using-ros2)
