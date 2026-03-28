@@ -1,9 +1,43 @@
-# DRL-for-Mobile-Robot-Navigation-Using-ROS2
+# DRL-for-RABO-Navigation-Using-ROS2
 
 <div align="center">
   <img src="/docs/simulation.gif" alt="Simulation" />
 </div>
 
+## 📌 Introduction
+
+This repository provides a **ROS 2 and PyTorch-based framework** for developing and evaluating deep reinforcement learning (DRL) algorithms for autonomous navigation in mobile robots.
+
+The framework supports training in simulation and deployment in both simulated and real-world environments. It is initially designed based on the TurtleBot3 platform, but can be extended to any robot capable of providing LiDAR and odometry data, and accepting velocity control commands.
+
+---
+
+## 🚀 Features
+
+- Train, store, load, and evaluate DRL-based navigation agents in simulation
+- Deploy trained models on real robots for autonomous navigation and obstacle avoidance
+- Analyze the impact of hyperparameters on training performance and convergence
+- Extend capabilities such as backward motion and frame stacking
+- Implement and test custom DRL algorithms  
+  *(Currently supported: DQN, DDPG, TD3)*
+
+---
+
+## ⚙️ Installation
+
+### 1. System Requirements
+- Ubuntu 22.04
+- ROS 2 Humble
+- Python 3.10
+- PyTorch
+
+---
+
+### 2. Clone the Repository
+
+```bash
+git clone https://github.com/kaveh-hooshmandi/RABO-drl-robot-navigation.git
+cd RABO-drl-robot-navigation
 
 ## Table of Contents
 - [DRL-for-Mobile-Robot-Navigation-Using-ROS2](#drl-for-mobile-robot-navigation-using-ros2)
