@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DRL-for-Mobile-Robot-Navigation-Using-ROS2
 
 <div align="center">
@@ -16,6 +15,28 @@
   - [Training](#training)
   - [Testing](#testing)
   - [Additional Demos](#additional-demos)
+  - 
+## 💡 Research Contributions
+
+- Migrated the framework from **ROS 2 Foxy to ROS 2 Humble**, improving compatibility with newer ROS2 ecosystems. *(In progress)*  
+- Designing a **multi-sensor fusion pipeline** integrating LiDAR and vision for enhanced SLAM and navigation performance. *(In progress)*  
+- Extending the DRL framework with **robust control and reinforcement learning** for uncertainty-aware autonomous navigation. *(Planned)*  
+
+---
+
+## 🚀 Project Overview
+
+A ROS 2-based deep reinforcement learning framework for autonomous navigation of mobile robots.
+
+This work focuses on bridging:
+- Reinforcement Learning  
+- Robust Control  
+- Sensor Fusion (LiDAR + Vision)  
+
+
+## 🖼️ System Overview
+
+![RABO Robot](docs/RABO1.png)
 
 ## Project Structure
 ```txt
